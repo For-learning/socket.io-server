@@ -18,7 +18,6 @@ var onlineUsers = {};
 var onlineCount = 0;
 
 io.on('connection', function (socket) {
-    console.log('a user connected');
 	
     /**
      *  Feature: Monotor new user
