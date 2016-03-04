@@ -1,11 +1,11 @@
-var express = require('express')();
+var express = require('express');
 var app = express();
 
 var http = require('http').Server(app);
 var io = require('socket.io')(http);
 var path = require('path');
 
-app.use(express.static(path.join(_dirname, 'client')));
+app.use(express.static(path.join(__dirname, 'client')));
 
 // Test connection
 app.get('/', function (req, res) {
