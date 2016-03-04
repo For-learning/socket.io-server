@@ -1,0 +1,22 @@
+<div class="container">
+    <!-- chat dialog -->
+    <div class="row">
+        <div class="col-md-12">
+            <div class="panel panel-default">
+                <div class="panel-heading">Chat Panel</div>
+                <div class="panel-body" style="min-height:500px;" id="chat_area">
+                    <p class="bg-success" ng-bind="members"></p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- submit button -->
+    <div class="row">
+        <div class="col-md-10">
+            <input type="text" class="form-control" placeholder="Please type your guy words..." ng-model="message"></input>
+        </div>
+        <div class="col-md-2">
+            <button class="btn btn-default" ng-click="submitMessage()">Submit</button>
+        </div>
+    </div>
+</div>

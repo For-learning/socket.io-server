@@ -1,0 +1,26 @@
+{
+  "name": "client",
+  "homepage": "https://github.com/Node-Angular-Bootstrap/socket.io-server",
+  "authors": [
+    "clown_0726 <crown_0726@163.com>"
+  ],
+  "description": "",
+  "main": "",
+  "moduleType": [],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "devDependencies": {
+    "jquery": "^2.2.1",
+    "angular": "^1.5.0",
+    "bootstrap": "^3.3.6",
+    "angular-route": "^1.5.0",
+    "angular-ui-router": "^0.2.18",
+    "angular-animate": "^1.5.0"
+  }
+}
